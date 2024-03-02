@@ -1,12 +1,21 @@
+
+
 export default function Nav() {
     
 
     return (
-      <nav className='nav justify-content-end'>
-        <section className=''>
+      <nav className='nav d-flex justify-content-between'>
+        <div className='d-flex justify-content-start'>
+          <div className='align-self-center'>
+          <img
+               src='./react-portfolio/src/assets/MichaelKellyLogo.jpg'
+               alt=""
+               className="img-fluid"
+        />
           Michael Kelly
-        </section>
-        <ul>
+          </div>
+        </div>
+        <ul className="nav d-flex list-unstyled justify-content-end">
           <li className='nav-item'>
             <a className='nav-link' href="#">About</a>
           </li>

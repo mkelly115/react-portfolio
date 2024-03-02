@@ -1,13 +1,13 @@
 // {import { useState } from 'react'}
 // {import reactLogo from './assets/react.svg'}
 import './App.css'
-import Nav from './components/Navigation/index'
+import Header from './components/Header/Header'
 
 function App() {
 
   return (
       <div>
-       <Nav />
+       <Header />
     </div>
   )
 }

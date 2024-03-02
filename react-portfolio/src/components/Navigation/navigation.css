@@ -1,0 +1,38 @@
+/* 
+
+navStyle {
+    backgroundColor: '#333',
+    padding: '10px 20px',
+    position: 'fixed',
+    top: 0,
+    width: '100%',
+    zIndex: 1000,
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    fontFamily: 'helvetica',
+    color: 'white',
+  };
+
+  const nameStyle = {
+    margin: '0',
+    fontSize: '20px', 
+    fontWeight: 'bold',
+  };
+
+  const linkContainerStyle = {
+    display: 'flex',
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+    fontFamily: 'helvetica',
+    flex: 1, 
+    maxWidth: 60,
+  };
+
+  const linkStyle = {
+    color: 'white',
+    textDecoration: 'none',
+    margin: '0 10px',
+    fontSize: '16px',
+    fontWeight: 'bold',
+  }; */
