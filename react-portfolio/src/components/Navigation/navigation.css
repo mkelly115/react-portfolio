@@ -1,4 +1,10 @@
+
+.custom-logo {
+    max-width: 100px; 
+    height: auto;
+  }
 /* 
+
 
 navStyle {
     backgroundColor: '#333',
@@ -36,3 +42,5 @@ navStyle {
     fontSize: '16px',
     fontWeight: 'bold',
   }; */
+
+  

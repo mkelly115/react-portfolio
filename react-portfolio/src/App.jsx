@@ -1,16 +1,18 @@
 // {import { useState } from 'react'}
-// {import reactLogo from './assets/react.svg'}
 import './App.css'
 // import Header from './components/Header/Header'
-// import Footer from './components/Footer/Footer'
-import Form from './pages/Contact'
+import Footer from './components/Footer/Footer'
+// import Form from './pages/Contact'
+// import AboutMe from './pages/About'
+// import Nav from './components/Navigation/index'
+
 
 function App() {
 
   return (
-      <div>
-       <Form />
-    </div>
+    <div>
+       <Footer />
+       </div>
   )
 }
 

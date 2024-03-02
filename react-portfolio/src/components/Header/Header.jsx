@@ -1,7 +1,9 @@
-import Nav from 'react-portfolio/src/components/Navigation/index'
+import Nav from '../Navigation/index'
 
 export default function Header() {
-<header>
+return(
+<div>
     <Nav />
-</header>
+</div>
+)
 }
