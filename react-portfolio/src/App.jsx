@@ -1,8 +1,11 @@
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import Header from './components/Header/Header';
+import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 // import AboutMe from './pages/About';
-import Form from './pages/Contact';
+import ResumeDownload from './pages/Resume';
+// import Form from './pages/Contact';
+// import Nav from './components/Navigation'
+
 
 // const App = () => {
 //   return (
@@ -23,7 +26,10 @@ import Form from './pages/Contact';
 const App = () => {
   return (
     <div>
-      <Form />
+      <header>
+        < Header />
+      </header>
+      <ResumeDownload />
       <footer>
       <Footer />
     </footer>
@@ -31,5 +37,13 @@ const App = () => {
 
   )
 };
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Nav />
+//     </div>
+//   )
+// }
 
 export default App;

@@ -5,7 +5,7 @@ import '../Footer/footer.css';
 
 export default function Footer() {
   return (
-    <nav className='nav d-flex justify-content-evenly fixed-bottom'>
+    <nav className='nav d-flex justify-content-evenly'>
       <ul className="list-unstyled d-flex justify-content-evenly footer-list footer-margin">
         <li className="nav-item mx-3">
           <a href='MAKE A LINKEDIN YOU IDIOT'>

@@ -2,9 +2,8 @@ import Nav from '../Navigation/index';
 
 export default function Header() {
   return (
-    <header>
+    <div>
       <Nav />
-      {/* Other header content */}
-    </header>
+    </div>
   );
 }
