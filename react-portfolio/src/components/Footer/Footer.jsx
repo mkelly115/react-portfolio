@@ -5,21 +5,21 @@ import '../Footer/footer.css';
 
 export default function Footer() {
   return (
-    <nav className='nav d-flex justify-content-center'>
-      <ul className="nav d-flex list-unstyled justify-content-center footer-list">
-        <li className="nav-item">
+    <nav className='nav d-flex justify-content-evenly fixed-bottom'>
+      <ul className="list-unstyled d-flex justify-content-evenly footer-list footer-margin">
+        <li className="nav-item mx-3">
           <a href='MAKE A LINKEDIN YOU IDIOT'>
-            <img src={linkedInImg} alt="LinkedIn" className='img-thumbnail footer-img' />
+            <img src={linkedInImg} alt="LinkedIn" className=' footer-img' />
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item mx-3">
           <a href='https://github.com/mkelly115'>
-            <img src={gitHubImg} alt="GitHub" className='img-thumbnail footer-img' />
+            <img src={gitHubImg} alt="GitHub" className=' footer-img' />
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item mx-3">
           <a href='https://stackoverflow.com/users/23515148/michael-kelly'>
-            <img src={stackImg} alt="Stack Overflow" className='img-thumbnail footer-img' />
+            <img src={stackImg} alt="Stack Overflow" className=' footer-img' />
           </a>
         </li>
       </ul>

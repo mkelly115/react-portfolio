@@ -1,9 +1,10 @@
-import Nav from '../Navigation/index'
+import Nav from '../Navigation/index';
 
 export default function Header() {
-return(
-<div>
-    <Nav />
-</div>
-)
+  return (
+    <header>
+      <Nav />
+      {/* Other header content */}
+    </header>
+  );
 }
