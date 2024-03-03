@@ -1,50 +1,36 @@
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-// import AboutMe from './pages/About';
-// import ResumeDownload from './pages/Resume';
-// import Form from './pages/Contact';
+import { Routes, Route } from 'react-router';
+import AboutMe from './pages/About';
 import ResumeDownload from './pages/Resume';
-// import Nav from './components/Navigation'
+import Form from './pages/Contact';
+import Portfolio from './pages/Portfolio';
 
 
-// const App = () => {
-//   return (
-//     // <Router>
-//       <div>
-//         <Header />
-//         <AboutMe />
-//         {/* <Switch>
-//           <Route exact path="/" component={AboutMe} />
-//           <Route path="/about" component={AboutMe} />
-//         </Switch> */}
-//         <Footer />
-//       </div>
-//     // </Router>
-//   );
-// };
+
 
 const App = () => {
   return (
-    <div>
-      <header>
-        < Header />
-      </header>
-      <ResumeDownload/>
-      <footer>
-      <Footer />
-    </footer>
-    </div>
+    <Routes>
+      <Route
+        index
+        path='/'
+        element={<AboutMe />}
+      />
+      <Route
+        path='/contact'
+        element={<Form />}
+      />
+      <Route
+        path='/resume'
+        element={<ResumeDownload />}
+      />
+      <Route
+        path='/portfolio'
+        element={<Portfolio />}
+        />
+    </Routes>
 
   )
 };
 
-// const App = () => {
-//   return (
-//     <div>
-//       <Nav />
-//     </div>
-//   )
-// }
 
 export default App;
