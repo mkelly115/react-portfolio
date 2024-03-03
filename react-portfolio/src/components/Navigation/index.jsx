@@ -3,7 +3,7 @@ import '../Navigation/navigation.css';
 
 export default function Nav() {
   return (
-    <nav className='nav d-flex justify-content-between mb-4'>
+    <nav className='nav d-flex justify-content-between mb-4 align-items-center'>
       <div className='d-flex align-items-center'>
         <img
           src=''

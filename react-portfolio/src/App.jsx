@@ -2,8 +2,9 @@
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 // import AboutMe from './pages/About';
-import ResumeDownload from './pages/Resume';
+// import ResumeDownload from './pages/Resume';
 // import Form from './pages/Contact';
+import ResumeDownload from './pages/Resume';
 // import Nav from './components/Navigation'
 
 
@@ -29,7 +30,7 @@ const App = () => {
       <header>
         < Header />
       </header>
-      <ResumeDownload />
+      <ResumeDownload/>
       <footer>
       <Footer />
     </footer>

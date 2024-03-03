@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
+import '../../src/index.css'
 
 function Form() {
     const [email, setEmail] = useState('');
@@ -29,54 +30,50 @@ function Form() {
 
             return;
         }
-        
+
         setEmail('');
         setName('');
         setMessage('');
     }
 
-    // setEmail('');
-    // setName('');
-    // setMessage('');
-    // This caused an infinite loop, figure out why and how to reset the fields on form submit
-
-
     return (
-        <div className="container text-center">
+        <div className="container text-center d-flex flex-column justify-content-center" style={{ height: '75vh', width: '75vw' }}>
             <div className='mb-3'>
-            <h1>Contact Michael Kelly</h1>
+                <h1>Contact Michael Kelly</h1>
             </div>
-            <form className="form-label" onSubmit={handleFormSubmit}>
+            <form className="form-label"  onSubmit={handleFormSubmit}>
                 <div className='mb-3'>
-                <input className='form-control' 
-                    value={name}
-                    name="name"
-                    onChange={handleInputChange}
-                    type="text"
-                    title='This field is required'
-                    placeholder="Your Name"
-                />
+                    <input
+                        className='form-control col-10'
+                        value={name}
+                        name="name"
+                        onChange={handleInputChange}
+                        type="text"
+                        title='This field is required'
+                        placeholder="Your Name"
+                    />
                 </div>
                 <div className='mb-3'>
-                <input className='form-control'
-                    value={email}
-                    name="email"
-                    onChange={handleInputChange}
-                    type="email"
-                    title='This field is required'
-                    placeholder="example@email.com"
-                />
+                    <input
+                        className='form-control'
+                        value={email}
+                        name="email"
+                        onChange={handleInputChange}
+                        type="email"
+                        title='This field is required'
+                        placeholder="example@email.com"
+                    />
                 </div>
                 <div className='mb-3'>
-                <textarea
-                    className='form-control'
-                    value={message}
-                    name="message"
-                    onChange={handleInputChange}
-                    title='This field is required'
-                    placeholder="Reach out with any questions for me"
-                    rows={4}
-                />
+                    <textarea
+                        className='form-control'
+                        value={message}
+                        name="message"
+                        onChange={handleInputChange}
+                        title='This field is required'
+                        placeholder="Reach out with any questions for me"
+                        rows={4}
+                    />
                 </div>
                 <button type="submit">Submit</button>
             </form>

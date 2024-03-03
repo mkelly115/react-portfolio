@@ -3,7 +3,7 @@ const ResumeDownload = () => {
       const filename = 'Michael A Kelly Resume (2).pdf';
       const link = document.createElement('a');
   
-      link.href = `../assets/react-portfolio/src/assets/${filename}`;
+      link.href = `./${filename}`;
       link.download = filename;
       document.body.appendChild(link);
       link.click();
@@ -11,7 +11,7 @@ const ResumeDownload = () => {
     };
   
     return (
-      <div className="container d-flex flex-column align-items-center justify-content-center vh-90">
+      <div className="container d-flex flex-column align-items-center justify-content-center" style={{ height: '75vh' }}>
         <div className='text-center'>
           <h1>Michael Kelly's Resume</h1>
           <p>Click the button below to download a copy of my work history and skills</p>
