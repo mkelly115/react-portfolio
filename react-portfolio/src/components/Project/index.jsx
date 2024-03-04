@@ -1,13 +1,13 @@
 
-const Project = ({title, description, image, technologies}) => {
+const Project = ({ title, description, image, technologies }) => {
+  return (
+      <div>
+          <h2>{title}</h2>
+          <p>{description}</p>
+          <img src={image} alt={title} style={{ maxWidth: '100%' }} />
+          <p>Technologies: {technologies.join(', ')}</p>
+      </div>
+  );
+};
 
-    return(
-        <div>
-          <h1>
-            {title},{description},{image},{technologies}
-          </h1>
-        </div>
-    )
-}
-
-export default Project
+export default Project;

@@ -4,7 +4,7 @@ import Layout from '../layouts/layout';
 const AboutMe = () => {
   return (
     <Layout>
-      <section className="container-fluid d-flex flex-column align-items-center justify-content-center">
+      <section className="container-fluid d-flex flex-column align-items-center justify-content-center mt-4">
         <div className="row">
           <div className="col-md-12 col-lg-4 mb-3">
             <img src={placeHolder} alt="Michael Kelly" className="img-fluid" />

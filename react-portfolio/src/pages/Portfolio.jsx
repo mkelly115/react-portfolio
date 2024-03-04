@@ -2,11 +2,11 @@ import ProjectList from "../components/ProjectList";
 import Layout from "../layouts/layout";
 
 const Portfolio = () => {
-    return(
+    return (
         <Layout>
-        <div>
-            <ProjectList />
-        </div>
+            <div>
+                <ProjectList />
+            </div>
         </Layout>
     )
 }
