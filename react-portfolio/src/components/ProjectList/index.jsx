@@ -12,6 +12,7 @@ const ProjectList = () => {
                             description={project.description}
                             image={project.image}
                             technologies={project.technologies}
+                            href={project.href}
                         />
                     </div>
                 ))}
