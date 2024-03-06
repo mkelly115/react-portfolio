@@ -1,4 +1,3 @@
-// import mkLogo from '../../assets/MichaelKellyLogo.jpg';
 import '../Navigation/navigation.css';
 import  { Link, useLocation }  from 'react-router-dom'
 

@@ -9,17 +9,17 @@ export default function Footer() {
       <nav className='nav d-flex justify-content-evenly'>
         <ul className="list-unstyled d-flex justify-content-evenly footer-list">
           <li className="nav-item mx-3">
-            <a href='MAKE A LINKEDIN YOU IDIOT'>
+            <a href='https://www.linkedin.com/in/michael-kelly-1710922b9/' target="_blank" rel="noopener noreferrer">
               <img src={linkedInImg} alt="LinkedIn" className='footer-img' />
             </a>
           </li>
           <li className="nav-item mx-3">
-            <a href='https://github.com/mkelly115'>
+            <a href='https://github.com/mkelly115' target="_blank" rel="noopener noreferrer">
               <img src={gitHubImg} alt="GitHub" className='footer-img' />
             </a>
           </li>
           <li className="nav-item mx-3">
-            <a href='https://stackoverflow.com/users/23515148/michael-kelly'>
+            <a href='https://stackoverflow.com/users/23515148/michael-kelly' target="_blank" rel="noopener noreferrer">
               <img src={stackImg} alt="Stack Overflow" className='footer-img' />
             </a>
           </li>

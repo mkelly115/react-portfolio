@@ -7,7 +7,9 @@ function Form() {
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
     const [message, setMessage] = useState('');
-    const [errorMessage, setErrorMessage] = useState('')
+    const [nameError, setNameError] = useState('');
+    const [emailError, setEmailError] = useState('');
+    const [errorMessage, setErrorMessage] = useState('');
 
     const handleInputChange = (e) => {
         const { target } = e;
@@ -16,10 +18,24 @@ function Form() {
 
         if (inputType === 'email') {
             setEmail(inputValue);
+            setEmailError('');
         } else if (inputType === 'name') {
             setName(inputValue);
+            setNameError('');
         } else {
             setMessage(inputValue);
+        }
+    };
+
+    const handleBlur = (e) => {
+        const { target } = e;
+        const inputType = target.name;
+        const inputValue = target.value;
+
+        if (inputType === 'email' && !validateEmail(inputValue)) {
+            setEmailError('Email is invalid');
+        } else if (inputType === 'name' && inputValue.trim() === '') {
+            setNameError('Name is required');
         }
     };
 
@@ -27,10 +43,15 @@ function Form() {
         e.preventDefault();
 
         if (!validateEmail(email)) {
-            setErrorMessage('Email is invalid')
-
+            setEmailError('Email is invalid');
             return;
         }
+
+        if (name.trim() === '') {
+            setNameError('Name is required');
+            return;
+        }
+
 
         setEmail('');
         setName('');
@@ -50,10 +71,13 @@ function Form() {
                             value={name}
                             name="name"
                             onChange={handleInputChange}
+                            onBlur={handleBlur}
                             type="text"
-                            title='This field is required'
                             placeholder="Your Name"
                         />
+                        {nameError && (
+                            <p className="error-text">{nameError}</p>
+                        )}
                     </div>
                     <div className='mb-3'>
                         <input
@@ -61,10 +85,13 @@ function Form() {
                             value={email}
                             name="email"
                             onChange={handleInputChange}
+                            onBlur={handleBlur}
                             type="email"
-                            title='This field is required'
                             placeholder="example@email.com"
                         />
+                        {emailError && (
+                            <p className="error-text">{emailError}</p>
+                        )}
                     </div>
                     <div className='mb-3'>
                         <textarea
@@ -72,12 +99,11 @@ function Form() {
                             value={message}
                             name="message"
                             onChange={handleInputChange}
-                            title='This field is required'
                             placeholder="Reach out with any questions for me"
                             rows={4}
                         />
                     </div>
-                    <button type="submit">Submit</button>
+                    <button style={{color: 'white', backgroundColor: '#333'}} type="submit">Submit</button>
                 </form>
                 {errorMessage && (
                     <div>

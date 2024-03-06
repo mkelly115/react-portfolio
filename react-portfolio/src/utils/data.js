@@ -12,7 +12,7 @@ export const projects = [
         description: 'A quiz that asks basic questions about javascript but showcases ability to swap elements, store hi-scores locally, and use a single div to perform multiple functions',
         image: javaQuiz,
         technologies: ['Javascript','HTML','CSS'],
-        href: 'https://mkelly115.github.io/java-quiz/'
+        href: 'https://github.com/mkelly115/java-quiz'
     },
     {
         id: 2,
@@ -28,7 +28,7 @@ export const projects = [
         description: 'A daily scheduler that will denote the time of day using colors, will allow the user to store and save information locally. Uses Day.Js to track time',
         image: dayScheduler,
         technologies: ['Javascript','HTML','CSS','Day.js'],
-        href: 'https://mkelly115.github.io/day-scheduler/'
+        href: 'https://github.com/mkelly115/day-scheduler'
     },
     {
         id: 4,
@@ -36,7 +36,7 @@ export const projects = [
         description: 'An interactive Character creator that calls on multiple API to allow a user to select a race and class with displayed statstical information as well as a backstory',
         image: dnd,
         technologies: ['Javascript','HTML','CSS'],
-        href: 'https://crnaro.github.io/dnd-stat-compiler/'
+        href: 'https://github.com/CRNaro/dnd-stat-compiler'
     },
     {
         id: 5,
@@ -44,7 +44,7 @@ export const projects = [
         description: 'A full stack website that allows users to review, rate books, and discuss individual titles. Includes users and login capabilities',
         image: literary,
         technologies: ['Javascript','HTML','CSS','mySQL'],
-        href: 'https://literary-voyagers-5d41db9d0f86.herokuapp.com/'
+        href: 'https://github.com/sambrez/Literary-Voyagers'
     },
     {
         id: 6,

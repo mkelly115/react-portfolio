@@ -18,7 +18,7 @@ const ResumeDownload = () => {
                 <div className='text-center'>
                     <h1>Michael Kelly's Resume</h1>
                     <p>Click the button below to download a copy of my work history and skills</p>
-                    <button className="btn btn-primary mb-3" onClick={handleDownload}>Download Resume</button>
+                    <button className="btn mb-3" style={{color: 'white', backgroundColor: '#333'}} onClick={handleDownload}>Download Resume</button>
                     <div className="developer-skills mt-4">
                         <h4>Developer Proficiencies</h4>
                         <div className="row">
