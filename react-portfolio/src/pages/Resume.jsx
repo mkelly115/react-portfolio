@@ -14,7 +14,7 @@ const ResumeDownload = () => {
 
     return (
         <Layout>
-            <div className="container d-flex flex-column align-items-center justify-content-center" style={{ height: '75vh' }}>
+            <div className="container d-flex flex-column align-items-center justify-content-center" style={{ height: '100vh' }}>
                 <div className='text-center'>
                     <h1>Michael Kelly's Resume</h1>
                     <p>Click the button below to download a copy of my work history and skills</p>

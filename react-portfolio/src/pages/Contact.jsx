@@ -39,7 +39,7 @@ function Form() {
 
     return (
         <Layout>
-            <div className="container text-center d-flex flex-column justify-content-center" style={{ height: '75vh', width: '75vw' }}>
+            <div className="container text-center d-flex flex-column justify-content-center" style={{ height: '100vh', width: '75vw' }}>
                 <div className='mb-3'>
                     <h1>Contact Michael Kelly</h1>
                 </div>

@@ -4,11 +4,17 @@
     height: auto;
   }
 
-.active-link {
-  color: lightskyblue;
+.nav-link {
+  color: white;
+  text-decoration: none; 
+  margin-right: 15px; 
 }
-.nav-item .nav-link {
-  color: white !important;
-  text-decoration: none !important; 
-  margin-right: 15px !important; 
+
+.nav-link:hover {
+  color: rgb(4, 131, 209);; 
+  text-decoration: none; /
+}
+
+.active-link {
+  color: rgb(4, 131, 209);
 }
