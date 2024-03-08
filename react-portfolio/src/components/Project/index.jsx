@@ -67,6 +67,8 @@
 
 // export default Project;
 
+// shaded boxes - Might look best with a bit of tweaking
+
 const Project = ({ title, description, image, technologies, href }) => {
   return (
     <div className="project-container mb-4 p-3 shadow">
