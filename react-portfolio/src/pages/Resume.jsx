@@ -2,7 +2,7 @@ import Layout from "../layouts/layout";
 
 const ResumeDownload = () => {
     const handleDownload = () => {
-        const filename = 'Michael A Kelly Resume (2).pdf';
+        const filename = 'Michael-Kelly-Resume.pdf';
         const link = document.createElement('a');
 
         link.href = `./${filename}`;
