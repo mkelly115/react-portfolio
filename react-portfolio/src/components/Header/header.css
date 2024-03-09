@@ -16,7 +16,7 @@
 }
 
 .brand span {
-  font-size: 24px; 
+  font-size: 36px; 
   margin-left: 10px; 
 }
 
@@ -37,4 +37,9 @@
     align-items: center;
     justify-content: center;
   }
+}
+
+.name {
+  font-size: 36px; 
+  margin-right: 10px; 
 }

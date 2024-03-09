@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className='header'>
       <div className='brand'>
-        <span className='ml-2'>Michael Kelly</span>
+        <span className='ml-2 name'>Michael Kelly</span>
       </div>
       <Nav />
     </header>

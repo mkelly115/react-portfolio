@@ -14,6 +14,7 @@ const ProjectList = () => {
                             image={project.image}
                             technologies={project.technologies}
                             href={project.href}
+                            liveLink={project.liveLink}
                         />
                     </div>
                 ))}
