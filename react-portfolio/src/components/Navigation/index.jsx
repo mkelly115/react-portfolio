@@ -5,7 +5,7 @@ export default function Nav() {
   const location = useLocation();
   return (
     <nav className='nav'>
-      <ul className="nav d-flex list-unstyled justify-content-end">
+      <ul className="nav d-flex list-unstyled justify-content-center">
         <li className='nav-item'>
           <Link to="/" className={location.pathname === '/' ? 'active-link nav-link' : 'nav-link'}>About Me</Link>
         </li>

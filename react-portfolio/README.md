@@ -17,7 +17,9 @@ As with any project there are struggles, and getting my individual portfolio com
 
 Overall, I would say this has been one of the most enjoyable assignments we have had and I really enjoyed how it gave a bigger glance at just how far we have come from october.
 
-# Screenshot
+# Live Link
+
+https://michael-kelly.netlify.app/
 
 # Licensing
 
