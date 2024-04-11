@@ -1,4 +1,4 @@
-import javaQuiz from '../assets/portfolio/CODING-QUIZ.png'
+import webPulse from '../assets/portfolio/WEB-PULSE.png'
 import weatherApp from '../assets/portfolio/WEATHER DASHBOARD.png'
 import dayScheduler from '../assets/portfolio/WORK-DAY.png'
 import dnd from '../assets/portfolio/DND.png'
@@ -8,12 +8,12 @@ import socialNetwork from '../assets/portfolio/SOCIAL-NETWORK-API.png'
 export const projects = [
     {
         id: 1,
-        title: 'JavaScript Quiz',
-        description: 'A quiz that asks basic questions about javascript but showcases ability to swap elements, store hi-scores locally, and use a single div to perform multiple functions',
-        image: javaQuiz,
-        technologies: ['Javascript','HTML','CSS'],
-        href: 'https://github.com/mkelly115/java-quiz',
-        liveLink: 'https://mkelly115.github.io/java-quiz/'
+        title: 'Project Management System',
+        description: 'Management portal allowing tracking of projects on a company-wide, team, and individual basis. Full stack project including use of JWT for authentication',
+        image: webPulse,
+        technologies: ['MongoDB','Material UI','React'],
+        href: 'https://github.com/hwoolford/final-project',
+        liveLink: 'https://https://final-project-qomg.onrender.com/'
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ export const projects = [
         description: 'A web page that is tied to an API that calls information from the user through a series of interacting API calls. Stores users previously selected cities locally and call call them back',
         image: weatherApp,
         technologies: ['Javascript','HTML','CSS'],
-        href: 'https://mkelly115.github.io/weather-app/',
+        href: 'https://github.com/mkelly115/weather-app',
         liveLink: 'https://mkelly115.github.io/weather-app/'
     },
     {

@@ -11,12 +11,12 @@
 }
 
 .nav-link:hover {
-  color: rgb(4, 131, 209);; 
+  color: #6495ed; 
   text-decoration: none; /
 }
 
 .active-link {
-  color: rgb(4, 131, 209);
+  color:  #6495ed;
 }
 @media (max-width: 400px) {
   .nav-link {

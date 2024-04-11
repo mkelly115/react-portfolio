@@ -39,24 +39,47 @@ function Form() {
         }
     };
 
-    const handleFormSubmit = (e) => {
+    const handleFormSubmit = async (e) => {
         e.preventDefault();
-
+    
         if (!validateEmail(email)) {
             setEmailError('Email is invalid');
             return;
         }
-
+    
         if (name.trim() === '') {
             setNameError('Name is required');
             return;
         }
-
-
-        setEmail('');
-        setName('');
-        setMessage('');
-    }
+    
+        const formData = new FormData();
+        formData.append('name', name);
+        formData.append('email', email);
+        formData.append('message', message);
+    
+        try {
+            const response = await fetch('https://formspree.io/f/mnqeogay', {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                },
+                body: formData
+            });
+    
+            if (response.ok) {
+                console.log('Form submitted successfully');
+                setEmail('');
+                setName('');
+                setMessage('');
+            } else {
+                const data = await response.json();
+                setErrorMessage(data.error);
+            }
+        } catch (error) {
+            console.error('Error submitting form:', error);
+            setErrorMessage('An error occurred while submitting the form');
+        }
+    };
 
     return (
         <Layout>
@@ -64,7 +87,8 @@ function Form() {
                 <div className='mb-3'>
                     <h1>Contact Michael Kelly</h1>
                 </div>
-                <form className="form-label" onSubmit={handleFormSubmit}>
+                <form className="form-label" onSubmit={handleFormSubmit} action="https://formspree.io/f/mnqeogay"
+                    method="POST">
                     <div className='mb-3'>
                         <input
                             className='form-control col-10'
@@ -103,7 +127,7 @@ function Form() {
                             rows={4}
                         />
                     </div>
-                    <button style={{color: 'white', backgroundColor: '#333'}} type="submit">Submit</button>
+                    <button style={{ color: 'white', backgroundColor: '#6495ed' }} type="submit">Submit</button>
                 </form>
                 {errorMessage && (
                     <div>
