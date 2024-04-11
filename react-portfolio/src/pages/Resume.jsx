@@ -66,11 +66,11 @@ const ResumeDownload = () => {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingCSS">
-                                    <button className={`accordion-button ${accordionOpen.db ? '' : 'collapsed'}`} style={{ color: 'white', backgroundColor: '#6495ed' }} type="button" onClick={() => toggleAccordion('css')}>
+                                    <button className={`accordion-button ${accordionOpen.db ? '' : 'collapsed'}`} style={{ color: 'white', backgroundColor: '#6495ed' }} type="button" onClick={() => toggleAccordion('db')}>
                                         Database Technologies
                                     </button>
                                 </h2>
-                                <div id="collapseCSS" className={`accordion-collapse collapse ${accordionOpen.css ? 'show' : ''}`} aria-labelledby="headingCSS">
+                                <div id="collapseCSS" className={`accordion-collapse collapse ${accordionOpen.db ? 'show' : ''}`} aria-labelledby="headingCSS">
                                     <div className="accordion-body">
                                         MySQL, MySQL Workbench, Sequelize, Mongoose, MongoDB
                                     </div>
@@ -78,11 +78,11 @@ const ResumeDownload = () => {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingCSS">
-                                    <button className={`accordion-button ${accordionOpen.host ? '' : 'collapsed'}`} style={{ color: 'white', backgroundColor: '#6495ed' }} type="button" onClick={() => toggleAccordion('css')}>
+                                    <button className={`accordion-button ${accordionOpen.host ? '' : 'collapsed'}`} style={{ color: 'white', backgroundColor: '#6495ed' }} type="button" onClick={() => toggleAccordion('host')}>
                                         Deployment & Hosting
                                     </button>
                                 </h2>
-                                <div id="collapseCSS" className={`accordion-collapse collapse ${accordionOpen.css ? 'show' : ''}`} aria-labelledby="headingCSS">
+                                <div id="collapseCSS" className={`accordion-collapse collapse ${accordionOpen.host ? 'show' : ''}`} aria-labelledby="headingCSS">
                                     <div className="accordion-body">
                                         Heroku, Render, Netlify, GitHub Pages
                                     </div>
