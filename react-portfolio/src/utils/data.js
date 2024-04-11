@@ -12,7 +12,7 @@ export const projects = [
         description: 'Management portal allowing tracking of projects on a company-wide, team, and individual basis. Full stack project including use of JWT for authentication',
         image: webPulse,
         technologies: ['MongoDB','Material UI','React'],
-        href: 'https://github.com/hwoolford/final-project',
+        href: 'https://github.com/mkelly115/final-project',
         liveLink: 'https://https://final-project-qomg.onrender.com/'
     },
     {
@@ -39,7 +39,7 @@ export const projects = [
         description: 'An interactive Character creator that calls on multiple API to allow a user to select a race and class with displayed statistical information and a backstory',
         image: dnd,
         technologies: ['Javascript','HTML','CSS'],
-        href: 'https://github.com/CRNaro/dnd-stat-compiler',
+        href: 'https://github.com/mkelly115/dnd-stat-compiler',
         liveLink: 'https://crnaro.github.io/dnd-stat-compiler/'
     },
     {
@@ -48,7 +48,7 @@ export const projects = [
         description: 'A full stack website that allows users to review, rate books, and discuss individual titles. Includes users and login capabilities',
         image: literary,
         technologies: ['Javascript','HTML','CSS','mySQL'],
-        href: 'https://github.com/sambrez/Literary-Voyagers',
+        href: 'https://github.com/mkelly115/Literary-Voyagers',
         liveLink: 'https://literary-voyagers-5d41db9d0f86.herokuapp.com/'
     },
     {
