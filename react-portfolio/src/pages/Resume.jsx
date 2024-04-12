@@ -42,7 +42,7 @@ const ResumeDownload = () => {
                         <div className="accordion" id="developerAccordion">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingHTML">
-                                    <button className={`accordion-button ${accordionOpen.front ? '' : 'collapsed'}`} style={{ color: 'white', backgroundColor: '#6495ed' }} type="button" onClick={() => toggleAccordion('html')}>
+                                    <button className={`accordion-button ${accordionOpen.front ? '' : 'collapsed'}`} style={{ color: 'white', backgroundColor: '#4365a3' }} type="button" onClick={() => toggleAccordion('html')}>
                                         Front-End Development
                                     </button>
                                 </h2>
@@ -66,7 +66,7 @@ const ResumeDownload = () => {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingCSS">
-                                    <button className={`accordion-button ${accordionOpen.db ? '' : 'collapsed'}`} style={{ color: 'white', backgroundColor: '#6495ed' }} type="button" onClick={() => toggleAccordion('db')}>
+                                    <button className={`accordion-button ${accordionOpen.db ? '' : 'collapsed'}`} style={{ color: 'white', backgroundColor: '#4365a3' }} type="button" onClick={() => toggleAccordion('db')}>
                                         Database Technologies
                                     </button>
                                 </h2>

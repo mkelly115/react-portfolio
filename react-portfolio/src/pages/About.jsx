@@ -15,7 +15,7 @@ const AboutMe = () => {
               <h3 className="text-center">Full Stack Web Developer</h3>
               <br />
               <p>
-                Welcome to my portfolio for full-stack web development! I am just completing my class in HTML, CSS, JavaScript, MySQL, MongoDB, and React.
+                Welcome to my portfolio for full-stack web development! I am a recent graduate of the University of New Hampshires full-stack web development certificate program.
               </p>
               <br />
               <p>

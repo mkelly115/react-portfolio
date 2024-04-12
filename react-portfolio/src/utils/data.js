@@ -8,8 +8,8 @@ import socialNetwork from '../assets/portfolio/SOCIAL-NETWORK-API.png'
 export const projects = [
     {
         id: 1,
-        title: 'Project Management System',
-        description: 'Management portal allowing tracking of projects on a company-wide, team, and individual basis. Full stack project including use of JWT for authentication',
+        title: 'Project Management',
+        description: 'Company wide management portal allowing tracking of projects on a company-wide, team, and individual basis. Full stack project including use of JWT for authentication',
         image: webPulse,
         technologies: ['MongoDB','Material UI','React'],
         href: 'https://github.com/mkelly115/final-project',
