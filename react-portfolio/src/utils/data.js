@@ -1,5 +1,6 @@
 import webPulse from '../assets/portfolio/WEB-PULSE.png'
-import weatherApp from '../assets/portfolio/WEATHER DASHBOARD.png'
+// import weatherApp from '../assets/portfolio/WEATHER DASHBOARD.png'
+import clothingApp from '../assets/portfolio/Screenshot 2025-01-14 114348.png'
 import dayScheduler from '../assets/portfolio/WORK-DAY.png'
 import dnd from '../assets/portfolio/DND.png'
 import literary from '../assets/portfolio/LITERARY-VOYAGERS.png'
@@ -15,14 +16,23 @@ export const projects = [
         href: 'https://github.com/mkelly115/final-project',
         liveLink: 'https://https://final-project-qomg.onrender.com/'
     },
+    // {
+    //     id: 2,
+    //     title: 'Weather Application',
+    //     description: 'A web page that is tied to an API that calls information from the user through a series of interacting API calls. Stores users previously selected cities locally and call call them back',
+    //     image: weatherApp,
+    //     technologies: ['Javascript','HTML','CSS'],
+    //     href: 'https://github.com/mkelly115/weather-app',
+    //     liveLink: 'https://mkelly115.github.io/weather-app/'
+    // },
     {
         id: 2,
-        title: 'Weather Application',
-        description: 'A web page that is tied to an API that calls information from the user through a series of interacting API calls. Stores users previously selected cities locally and call call them back',
-        image: weatherApp,
-        technologies: ['Javascript','HTML','CSS'],
-        href: 'https://github.com/mkelly115/weather-app',
-        liveLink: 'https://mkelly115.github.io/weather-app/'
+        title: 'Retail Clothing Store',
+        description: 'A fully functional webpage that allows the user to store selected items in a shopping cart. The user can also execute a credit/debit payment. Ability to add/remove shopping items.',
+        image: clothingApp,
+        technologies: ['Javascript','React.JS', 'Stripe'],
+        href: 'https://github.com/mkelly115/tefaux-brand',
+        liveLink: 'https://tefaux-brand.netlify.app/'
     },
     {
         id: 3,

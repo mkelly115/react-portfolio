@@ -48,7 +48,7 @@ const ResumeDownload = () => {
                                 </h2>
                                 <div id="collapseHTML" className={`accordion-collapse collapse ${accordionOpen.html ? 'show' : ''}`} aria-labelledby="headingHTML">
                                     <div className="accordion-body">
-                                        HTML, CSS, JavaScript, jQuery, Bootstrap, MaterialUI, React
+                                        HTML, CSS, JavaScript, jQuery, Bootstrap, MaterialUI, React, Next.Js
                                     </div>
                                 </div>
                             </div>
