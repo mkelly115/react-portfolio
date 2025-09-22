@@ -1,5 +1,5 @@
-import placeHolder from '../assets/No-Image-Placeholder.svg.png';
-import Layout from '../layouts/layout';
+import placeHolder from "../assets/No-Image-Placeholder.svg.png";
+import Layout from "../layouts/layout";
 
 const AboutMe = () => {
   return (
@@ -7,23 +7,42 @@ const AboutMe = () => {
       <section className="container d-flex flex-column align-items-center justify-content-center mt-5 mb-5">
         <div className="row">
           <div className="col-md-12 col-lg-6 mb-3 d-flex justify-content-center">
-            <img src={placeHolder} alt="Michael Kelly" className="img-fluid rounded" style={{ maxWidth: '100%', height: 'auto' }} />
+            <img
+              src={placeHolder}
+              alt="Michael Kelly"
+              className="img-fluid rounded"
+              style={{ maxWidth: "100%", height: "auto" }}
+            />
           </div>
           <div className="col-md-12 col-lg-6 d-flex align-items-center">
             <div>
               <h2 className="text-center">Michael Kelly</h2>
-              <h3 className="text-center">Full Stack Web Developer</h3>
+              <h3 className="text-center text-muted">
+                Full Stack Web Developer | Problem-Solver | Team Player
+              </h3>
               <br />
               <p>
-                Welcome to my portfolio for full-stack web development! I am a recent graduate of the University of New Hampshires full-stack web development certificate program.
+                Welcome! I’m a passionate and results-driven full-stack web
+                developer with a certificate in web development from the
+                University of New Hampshire.
               </p>
-              <br />
               <p>
-                I have an extensive background that includes management and emergency services. I am confident this unique combination will bring any team a deep skill set of both coding and interpersonal skills needed to excel in all aspects of the business.
+                My background blends modern web technologies like JavaScript,
+                React, and Node with strong leadership and problem-solving
+                skills built through years in management and emergency services.
               </p>
-              <br />
               <p>
-                I currently reside in the New England area and am looking forward to showcasing my skills and abilities to any prospective employer. I am driven to constantly be learning and improving my skills. I am currently seeking a career in full-stack or front-end web development.
+                I specialize in designing, building, and deploying dynamic
+                applications that balance functionality, performance, and user
+                experience. Whether collaborating in a fast-paced team
+                environment or tackling challenges independently, I thrive on
+                delivering solutions that exceed expectations.
+              </p>
+              <p>
+                I am currently seeking opportunities in full-stack or front-end
+                development, where I can apply my skills to build scalable
+                applications, contribute to innovative projects, and grow as
+                part of a collaborative team.
               </p>
             </div>
           </div>
