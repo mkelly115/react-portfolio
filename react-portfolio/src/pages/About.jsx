@@ -44,6 +44,8 @@ const AboutMe = () => {
                 applications, contribute to innovative projects, and grow as
                 part of a collaborative team.
               </p>
+
+              {/* maybe this should be rewritten to focus on front end stack? */}
             </div>
           </div>
         </div>
